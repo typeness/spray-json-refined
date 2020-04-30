@@ -5,8 +5,8 @@ before_install:
   - git fetch --tags
 stages:
   - name: test
-  #- name: release
-  #  if: ((branch = master AND type = push) OR (tag IS present)) AND NOT fork
+  - name: release
+    if: ((branch = master AND type = push) OR (tag IS present)) AND NOT fork
 
 jobs:
   include:
@@ -14,5 +14,5 @@ jobs:
     - name: compile
       script: sbt test
     # run ci-release only if previous stages passed
-    #- stage: release
-    #  script: sbt ci-release
+    - stage: release
+      script: sbt ci-release

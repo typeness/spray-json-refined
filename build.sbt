@@ -1,6 +1,18 @@
-name := "spray-json-refined"
+inThisBuild(List(
+  organization := "io.github.typeness",
+  homepage := Some(url("https://github.com/typeness/spray-json-refined")),
+  licenses := List("MIT" -> url("https://github.com/typeness/spray-json-refined/blob/master/LICENSE")),
+  developers := List(
+    Developer(
+      "typeness",
+      "typeness",
+      "tangens270@gmail.com",
+      url("https://github.com/typeness")
+    )
+  )
+))
 
-version := "0.1"
+name := "spray-json-refined"
 
 scalaVersion := "2.13.2"
 
