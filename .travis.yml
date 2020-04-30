@@ -1,4 +1,6 @@
 language: scala
+scala:
+  - 2.13.2
 before_install:
   - git fetch --tags
 stages:
