@@ -1,6 +1,6 @@
 # spray-json-refined
 
-A library that integrates [https://github.com/spray/spray-json](spray-json) and [https://github.com/fthomas/refined](refined).
+A library that integrates [spray-json](https://github.com/spray/spray-json) and [refined](https://github.com/fthomas/refined)
 
 Given instance of `JsonFormat[T]` this library derives instance of `JsonFormat[T Refined P]`
 
