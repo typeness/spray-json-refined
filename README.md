@@ -1,4 +1,5 @@
 # spray-json-refined
+[![Sonatype](https://img.shields.io/nexus/r/io.github.typeness/spray-json-refined_2.13?server=https%3A%2F%2Foss.sonatype.org%2F)](https://repo1.maven.org/maven2/io/github/typeness/spray-json-refined_2.13)
 
 A library that integrates [spray-json](https://github.com/spray/spray-json) and [refined](https://github.com/fthomas/refined)
 
