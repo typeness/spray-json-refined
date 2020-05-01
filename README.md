@@ -8,7 +8,8 @@ Given instance of `JsonFormat[T]` this library derives instance of `JsonFormat[T
 ## Installation
 Supported Scala versions: `2.13`, `2.12`
 
-Add the following to your `build.sbt`
+Add the following to your `build.sbt`:
+
 `libraryDependencies += "io.github.typeness" %% "spray-json-refined" % "<version>"`
 
 
