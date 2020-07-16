@@ -24,6 +24,6 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= Seq(
   "io.spray" %% "spray-json" % "1.3.5",
-  "eu.timepit" %% "refined" % "0.9.14",
+  "eu.timepit" %% "refined" % "0.9.15",
   "org.scalatest" %% "scalatest" % "3.2.0" % Test
 )
