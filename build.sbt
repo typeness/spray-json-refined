@@ -14,7 +14,7 @@ inThisBuild(List(
 
 name := "spray-json-refined"
 
-crossScalaVersions := List("2.13.5", "2.12.13")
+crossScalaVersions := List("2.13.6", "2.12.13")
 
 scalacOptions ++= Seq(
   "-encoding", "utf8",
