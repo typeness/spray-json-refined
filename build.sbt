@@ -14,7 +14,8 @@ inThisBuild(List(
 
 name := "spray-json-refined"
 
-crossScalaVersions := List("2.13.6", "2.12.13")
+
+crossScalaVersions := List("2.13.6", "2.12.14")
 
 scalacOptions ++= Seq(
   "-encoding", "utf8",
@@ -24,6 +25,6 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= Seq(
   "io.spray" %% "spray-json" % "1.3.6",
-  "eu.timepit" %% "refined" % "0.9.25",
+  "eu.timepit" %% "refined" % "0.9.26",
   "org.scalatest" %% "scalatest" % "3.2.9" % Test
 )
